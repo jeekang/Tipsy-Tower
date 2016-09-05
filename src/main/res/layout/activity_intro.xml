@@ -11,14 +11,16 @@
     tools:context="com.example.jeekang.tipsytower.SplashActivity">
 
     <ImageButton
-        android:src="@drawable/second"
+        android:src="@drawable/f"
         android:text="CLICK"
         android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:id="@+id/newbutton2"
         android:clickable="true"
         android:onClick="instButton"
-        android:layout_height="wrap_content"
         android:background="@null"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true" />
 
@@ -34,6 +36,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/imageView"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
         android:layout_centerHorizontal="true" />
 
 
