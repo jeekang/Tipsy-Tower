@@ -1,6 +1,6 @@
 # Turnt-Tower
 
-# Quick Start
+## Quick Start
 Ages 21+
 
 The rules are simple. 
@@ -10,5 +10,8 @@ it will present a rule that must be followed,
 or a task that must be completed.
 
 Most of the rules were sourced from: http://www.connactivity.com/~csniezek/Jenga/jengalist.html
+
+
+
 
 
