@@ -9,8 +9,6 @@ After every block is removed, tap the app and
 it will present a rule that must be followed, 
 or a task that must be completed.
 
-Get Tipsy!
-
 Most of the rules were sourced from: http://www.connactivity.com/~csniezek/Jenga/jengalist.html
 
 
