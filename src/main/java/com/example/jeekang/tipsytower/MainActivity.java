@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
             MessageBox(game.returnRule());
         }*/
         AlertDialog.Builder builder1 = new AlertDialog.Builder(this);
-        builder1.setTitle("May the odds be every in your favor.");
+        builder1.setTitle("May the odds be ever in your favor.");
         builder1.setMessage(game.returnRule());
         builder1.setCancelable(true);
 
