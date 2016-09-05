@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#00B0FF"
+    tools:context="com.example.jeekang.tipsytower.SplashActivity">
+
+    <ImageButton
+        android:src="@drawable/second"
+        android:text="CLICK"
+        android:layout_width="wrap_content"
+        android:id="@+id/newbutton2"
+        android:clickable="true"
+        android:onClick="instButton"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="Created by: Jee Kang \nPlease Drink Responsibly \nOptimized for 54 Jenga blocks "
+        android:id="@+id/textView" />
+    <ImageView
+        android:src="@drawable/inst"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:layout_centerHorizontal="true" />
+
+
+
+</RelativeLayout>
